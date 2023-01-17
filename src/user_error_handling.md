@@ -13,6 +13,16 @@ pub struct MyError {
   message: String
 }
 
+
+//background is that the error Trait needs the Debug and the Display Trait
+//impl traits has two ways, so 
+//via derive macro
+//of via impls ftm::Display which we need to use std::ftm;
+
+//jörn advices us to copy paste it
+
+//copy paste it, 
+
 impl fmt::Display for MyError {
   // I copy & paste this code snippet every time
   fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {

@@ -1,5 +1,7 @@
 # Error handling with Result
 
+* consider this a recoverable error, check on how the Err can be still handled with code in the Result:Error
+
 We can handle errors by looking at the state of the `Result`:
 
 ```rust
